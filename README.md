@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/m-muecke/isocountry/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/m-muecke/isocountry/actions/workflows/R-CMD-check.yaml)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/isocountry)](https://CRAN.R-project.org/package=isocountry)
 <!-- badges: end -->
 
 This package contains the following datasets:
@@ -24,8 +26,14 @@ project.
 
 ## Installation
 
-You can install the development version of isocountry from
-[GitHub](https://github.com/) with:
+You can install the released version of **isocountry** from
+[CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("isocountry")
+```
+
+And the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
@@ -39,7 +47,7 @@ library(dplyr)
 library(isocountry)
 
 isocountry |>
-  left_join(isocurrency, by = c("alpha_2" = "country_code"))
+  left_join(isocurrency, by = join_by(alpha_2 == country_code))
 #> # A tibble: 263 × 18
 #>    name       alpha_2 alpha_3 country_code iso_3166_2 is_independent region_code
 #>    <chr>      <chr>   <chr>   <chr>        <chr>      <lgl>                <int>
