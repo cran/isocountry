@@ -3,12 +3,18 @@ NULL
 
 #' Country names with ISO country codes
 #'
-#' ISO 3166-1 country codes with full country names.
+#' ISO 3166-1 country codes with full country names, UN regional classifications,
+#' OECD membership status, EU membership status, Economic and Monetary Union (EMU) membership status,
+#' and European Economic Area (EEA) membership status.
 #'
 #' @source
 #' * <https://en.wikipedia.org/wiki/ISO_3166-1>
 #' * <https://unstats.un.org/unsd/methodology/m49/overview>
-#' @format A data frame with 249 rows and 13 variables:
+#' * <https://en.wikipedia.org/wiki/OECD>
+#' * <https://en.wikipedia.org/wiki/Member_state_of_the_European_Union>
+#' * <https://en.wikipedia.org/wiki/Economic_and_Monetary_Union_of_the_European_Union>
+#' * <https://en.wikipedia.org/wiki/European_Economic_Area>
+#' @format A data frame with 249 rows and 17 variables:
 #' \describe{
 #'   \item{name}{country name}
 #'   \item{alpha_2}{ISO alpha-2 code}
@@ -23,6 +29,10 @@ NULL
 #'   \item{intermediate_region_code}{UN intermediate region code}
 #'   \item{intermediate_region_name}{UN intermediate region name}
 #'   \item{m49_code}{UN M49 code}
+#'   \item{oecd_member}{is the country an OECD member}
+#'   \item{eu_member}{is the country an EU member}
+#'   \item{emu_member}{is the country an EMU member}
+#'   \item{eea_member}{is the country an EEA member}
 #' }
 #' @examples
 #' isocountry
@@ -33,7 +43,7 @@ NULL
 #' ISO 4217 currency codes with full country names.
 #'
 #' @source <https://www.iban.com/currency-codes>
-#' @format A data frame with 269 rows and 4 variables:
+#' @format A data frame with 261 rows and 6 variables:
 #' \describe{
 #'   \item{currency_name}{ISO currency name}
 #'   \item{currency_code}{ISO currency code}
