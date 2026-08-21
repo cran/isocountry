@@ -1,6 +1,6 @@
 Package: isocountry
 Title: ISO 3166-1 Country Codes
-Version: 0.6.1
+Version: 0.7.0
 Authors@R: 
     person("Maximilian", "Mücke", , "muecke.maximilian@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0000-9432-9795"))
@@ -14,13 +14,13 @@ Depends: R (>= 3.5)
 Imports: tibble
 Suggests: dplyr
 Config/roxygen2/markdown: TRUE
-Config/roxygen2/version: 8.0.0
+Config/roxygen2/version: 8.1.0
 Encoding: UTF-8
 LazyData: true
 NeedsCompilation: no
-Packaged: 2026-06-29 07:53:02 UTC; mmuecke
+Packaged: 2026-08-20 12:20:29 UTC; mmuecke
 Author: Maximilian Mücke [aut, cre] (ORCID:
     <https://orcid.org/0009-0000-9432-9795>)
 Maintainer: Maximilian Mücke <muecke.maximilian@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-06-29 08:30:02 UTC
+Date/Publication: 2026-08-21 05:42:30 UTC
