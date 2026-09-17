@@ -1,10 +1,10 @@
-abf9c4dde2e06333efd4c18869115e86 *DESCRIPTION
+7096a695b06460f136191a79c1e29ca5 *DESCRIPTION
 507ff1608ff6a357d2256ed5f24874b3 *LICENSE
 2a207a9258970c0ae6ab72a3b0c2d1e4 *NAMESPACE
-d2ce3015cae1ed31587eecde8060fb7e *NEWS.md
+cc800a4f04113c8e4be6bdaeddb432e1 *NEWS.md
 fd539adba1a09815f1d809515c8a8458 *R/data.R
 cc25163723632b22c5ff03432ef77ad0 *README.md
-ce23659416b5f28893bca0ea7f126d2e *data/isocountry.rda
+fa99e367a8afc70d8f21c550289b3c28 *data/isocountry.rda
 bf3754643befa316d0b134810eabc8f9 *data/isocurrency.rda
 29e7ca6f17f34e2660f42bd75f695f63 *man/isocountry.Rd
 0ddda4d9e12a493936e4d89abf74ed26 *man/isocurrency.Rd
